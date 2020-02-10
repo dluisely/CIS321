@@ -30,7 +30,7 @@ public class Application
             int y = scan.nextInt();
             
             Date date = new Date(m, d, y);
-            System.out.println(date.firstFormat());
+            System.out.println(date);
         }
         if (choice == 2) {
             System.out.println("Enter Month:");
@@ -41,11 +41,11 @@ public class Application
             int y = scan.nextInt();
             
             Date date = new Date(month, d, y);
-            System.out.println(date.secondFormat());
+            System.out.println(date);
         } 
         if (choice == 3) {
             Date date = new Date();
-            System.out.println(date.thirdFormat());
+            System.out.println(date);
         } 
         redo();
     }

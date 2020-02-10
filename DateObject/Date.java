@@ -14,6 +14,7 @@ public class Date {
     private int yyyy; // any year
     private int days; //total days in year
     private int month; 
+    private int formatSelection;
     Scanner scan = new Scanner(System.in); //for user input
     private final String monthNames[] = { "January", "February","March", "April", "May", "June", "July", 
                                           "August","September", "October", "November", "December" };
@@ -23,6 +24,7 @@ public class Date {
      */                                     
     public Date(int mm, int dd, int yyyy) {
         setDate(mm, dd, yyyy);
+        formatSelection = 1;
     }
     
     /**
@@ -31,6 +33,7 @@ public class Date {
     public Date(String month, int dd, int yyyy) {
         int m = convertMonth(month); //converts String month into int
         setDate(m, dd, yyyy);
+        formatSelection = 2;
     }
     
     /**
@@ -136,15 +139,13 @@ public class Date {
         return leapYear;
     }
     
-    
-    //different date formats
-    public String firstFormat() {
-        return "\n" + mm + "/" + dd + "/" + yyyy;
-    }
-    public String secondFormat() {
-        return "\n" + monthNames[month] + " " + dd + ", " + yyyy;
-    }
-    public String thirdFormat() {
-        return "\n" + days + " " + yyyy;
+    public String toString() {
+        if (formatSelection == 1) {
+            return "\n" + mm + "/" + dd + "/" + yyyy;
+        } else if (formatSelection == 2) {
+            return "\n" + monthNames[month] + " " + dd + ", " + yyyy;
+        } else {
+            return "\n" + days + " " + yyyy;
+        }
     }
 }
