@@ -44,7 +44,7 @@ public class Date {
         int days = scan.nextInt(); //days in year
         System.out.println("Enter year:");
         int year = scan.nextInt(); //any year
-        daysInYear(days);
+        daysInYear(days, year);
         setYear(year);
     }
     
@@ -76,8 +76,10 @@ public class Date {
         this.yyyy = yyyy;
     }
     //set days in year
-    public void daysInYear(int days) {
-        if (days < 1 || days > 365) {
+    public void daysInYear(int days, int yyyy) {
+        if (days == 366 && checkLeapYear(yyyy)) {
+            days = days;
+        } else if (days < 1 || days > 365) {
             throw new IllegalArgumentException("Invalid days input");
         }
         this.days = days;
