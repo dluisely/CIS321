@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Charges
+comment0.text=\n\ Charges\ class\ calculates\ the\ charges\ for\ a\ customer\n\n\ @author\ Luisely\ Doza\n\ @version\ January\ 27,\ 2020\n
+comment1.params=hoursParked
+comment1.target=double\ calculateCharges(int)
+comment1.text=\n\ method\ calculates\ charges\ based\ on\ hours\ parked\n\ exceptions\ handeled\ for\ invalid\ inputs\n\ minimum\ $2.00\ fee\ for\ up\ to\ 3\ hours\n\ maximum\ $10.00\ fee\ reached\ after\ 19\ hours\ parked\n\ minimum\ fee\ +\ $.50\ for\ every\ additional\ hour\ after\ parked\ for\ more\ than\ 3\ hours\n
+numComments=2

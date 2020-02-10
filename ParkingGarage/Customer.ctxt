@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Customer
+comment0.text=\n\ Customer\ class\ declaration\ with\ constructor\n\n\ @author\ Luisely\ Doza\n\ @version\ January\ 27,\ 2020\n
+comment1.params=hoursParked
+comment1.target=Customer(int)
+comment1.text=\n\ customer\ constructor\:\ hours\ parked\ supplied,\ charges\ calculated\ by\ calling\ calculateCharges()\ method\ in\ Charges\ class\n
+comment2.params=h
+comment2.target=void\ setHoursParked(int)
+comment3.params=h
+comment3.target=void\ setCharges(int)
+comment4.params=
+comment4.target=int\ getHoursParked()
+comment5.params=
+comment5.target=double\ getCharges()
+numComments=6

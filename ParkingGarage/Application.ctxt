@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Application
+comment0.text=\n\ Application\ method\ creates\ customers\ array\ to\ test\ charges\ and\ customer\ classes\n\n\ @author\ Luisely\ Doza\n\ @version\ January\ 27,\ 2020\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=customers
+comment2.target=double\ totalCharges(Customer[])
+comment2.text=\n\ method\ takes\ each\ customer's\ charges\ and\ adds\ them\ together\ for\ total\ charges\n
+numComments=3
