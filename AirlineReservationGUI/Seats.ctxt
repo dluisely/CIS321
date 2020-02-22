@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Seats
+comment0.text=\n\ This\ class\ checks\ to\ see\ if\ a\ seat\ in\ First\ Class\ or\ Economy\ is\ available\ and\ then\ displays\ ticket\ with\ booked\ flight.\n\n\ @author\ Luisely\ Doza\n\ @version\ Febraury\ 21,\ 2020\n
+comment1.params=
+comment1.target=void\ reserveFirstClass()
+comment1.text=\n\ This\ method\ checks\ to\ see\ First\ Class\ section\ availability\n\ Ticket\ displayed\ if\ seat\ booked\n\ If\ full,\ user\ is\ given\ the\ choice\ of\ Economy\ seating\n\ If\ both\ are\ full,\ then\ next\ flight\ departure\ is\ displayed\n
+comment2.params=
+comment2.target=void\ reserveEconomy()
+comment2.text=\n\ This\ method\ checks\ to\ see\ Economy\ section\ availability\n\ Ticket\ displayed\ if\ seat\ booked\n\ If\ full,\ user\ is\ given\ the\ choice\ of\ First\ Class\ seating\n\ If\ both\ are\ full,\ then\ next\ flight\ departure\ is\ displayed\n
+numComments=3
