@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=PieceWorker
+comment0.text=\n\ This\ class\ represents\ an\ employee\ whose\ pay\ is\ based\ on\ the\ number\ of\ pieces\ of\ merchandise\ produced\n\ PieceWorker\ class\ extends\ Employee\n\n\ @author\ Luisely\ Doza\n\ @version\ February\ 28,\ 2020\n
+comment1.params=firstName\ lastName\ socialSecurityNumber\ Wage\ Pieces
+comment1.target=PieceWorker(java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ double)
+comment2.params=Wage
+comment2.target=void\ setWage(double)
+comment3.params=Pieces
+comment3.target=void\ setPieces(double)
+comment4.params=
+comment4.target=double\ getWage()
+comment5.params=
+comment5.target=double\ getPieces()
+comment6.params=
+comment6.target=double\ earnings()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8
