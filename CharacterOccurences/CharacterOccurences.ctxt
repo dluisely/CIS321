@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CharacterOccurences
+comment0.text=\n\ This\ program\ takes\ text\ input\ and\ counts\ the\ number\ of\ character\ occurences\n\ \n\ @author\ Luisely\ Doza\n\ @version\ March\ 6,\ 2020\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ app()
+comment3.params=text\ pattern
+comment3.target=int\ countStringOccurrences(java.lang.String,\ java.lang.String)
+numComments=4

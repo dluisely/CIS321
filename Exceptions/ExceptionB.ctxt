@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ExceptionB
+comment0.text=\n\ @author\ Luisely\ Doza\n\ @version\ March\ 6,\ 2020\n
+comment1.params=message
+comment1.target=ExceptionB(java.lang.String)
+numComments=2

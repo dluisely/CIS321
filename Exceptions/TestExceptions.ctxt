@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=TestExceptions
+comment0.text=\n\ Program\ that\ demonstrates\ inheritance\n\ ExceptionA\ superclass\ is\ able\ to\ catch\ exceptions\ of\ typeExceptionB\ and\ ExceptionC\ \n\n\ @author\ Luisely\ Doza\n\ @version\ March\ 6,\ 2020\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
