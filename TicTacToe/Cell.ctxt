@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Cell
+comment0.text=\n\ Cell\ class\ created\ by\ initating\ row\ and\ column\ ints\ in\ the\ constructor\ \n\n\ @author\ Luisely\ Doza\n\ @version\ April\ 27,\ 2020\n
+comment1.params=row\ col
+comment1.target=Cell(int,\ int)
+comment2.params=
+comment2.target=void\ clear()
+comment3.params=g
+comment3.target=void\ paint(java.awt.Graphics)
+numComments=4

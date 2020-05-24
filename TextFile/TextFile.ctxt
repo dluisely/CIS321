@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TextFile
+comment0.text=\n\ Program\ is\ able\ to\ read\ files\ or\ create\ and\ write\ to\ files\n\n\ @author\ Luisely\ Doza\n\ @version\ April\ 3,\ 2020\n
+comment1.params=
+comment1.target=void\ readFile()
+comment1.text=\n\ This\ method\ reads\ a\ file\ and\ will\ throw\ an\ exception\ if\ not\ found\n
+comment2.params=first\ last\ address\ country\ birthDate
+comment2.target=void\ writeFile(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\n\ This\ method\ writes\ a\ file\ and\ will\ throw\ an\ exception\ if\ unable\ to\ create\ the\ file\n\ \n\ @param\ first\ student\ first\ name\n\ @param\ last\ student\ last\ name\n\ @param\ address\ student's\ address\n\ @param\ country\ student's\ country\n\ @param\ birthDate\ student's\ date\ of\ birth\n
+numComments=3

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Application
+comment0.text=\n\ Application\ class\ creates\ object\ of\ the\ TextFile\ class\n\ asks\ user\ for\ five\ inputs\ that\ would\ be\ written\ to\ a\ file\ and\ then\ read\n\n\ @author\ Luisely\ Doza\n\ @version\ April\ 3,\ 2020\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

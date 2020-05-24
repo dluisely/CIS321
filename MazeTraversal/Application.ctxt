@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Application
+comment0.text=\n\ Application\ class\ extends\ Maze\ class\ and\ tests\ the\ mazeTraversal()\ method,\ printing\ out\ the\ final\ maze\n\n\ @author\ Luisely\ Doza\n\ @version\ April\ 3,\ 2020\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

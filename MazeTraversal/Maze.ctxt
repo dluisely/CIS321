@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Maze
+comment0.text=\n\ This\ class\ builds\ a\ maze\ and\ uses\ recursive\ backtracing\ to\ traverse\ its\ way\ out\n\n\ @author\ Luisely\ Doza\n\ @version\ April\ 3,\ 2020\n
+comment1.params=i\ j
+comment1.target=void\ mazeTraversal(int,\ int)
+comment1.text=\n\ This\ method\ uses\ recursion\ to\ traverse\ through\ the\ maze\n\ An\ 'X'\ is\ placed\ to\ indicate\ the\ path\n\ An\ '0'\ is\ used\ to\ indicate\ a\ wrong\ path\n\ A\ new\ maze\ is\ printed\ everytime\ recusion\ occurs\ (a\ new\ move)\n\ \n\ @param\ i\ row\ index\ of\ two\ dimensional\ array\n\ @param\ j\ column\ index\ of\ two\ dimensional\ array\n
+comment2.params=
+comment2.target=void\ buildMaze()
+comment2.text=\n\ This\ method\ builds\ the\ maze\ and\ prints\ it\ out\n
+numComments=3
